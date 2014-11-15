@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Mic::VERSION
   spec.authors       = ["Javier Vidal"]
   spec.email         = ["javier@javiervidal.net"]
-  spec.summary       = 'MIC'
-  spec.description   = 'MIC'
-  spec.homepage      = ""
+  spec.summary       = 'ISO 10383 - Market Identifier Codes (MIC)'
+  spec.description   = 'Market Identifier Codes (MIC). The ISO 10383 specifies a universal method of identifying exchanges, trading platforms, regulated or non-regulated markets and trade reporting facilities as sources of prices and related information in order to facilitate automated processing.'
+  spec.homepage      = "https://github.com/javiervidal/mic"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
