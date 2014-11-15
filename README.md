@@ -6,7 +6,7 @@ The ISO 10383 specifies a universal method of identifying exchanges, trading pla
 markets and trade reporting facilities as sources of prices and related information in order to facilitate automated
 processing.
 
-This gem provides the market codes, the market names and the rest of the fields defined in the ISO 10383.
+This gem provides the market codes, the market names and most of the fields defined in the ISO 10383.
 
 ## Installation
 
