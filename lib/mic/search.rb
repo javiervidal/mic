@@ -20,7 +20,6 @@ class Mic
     end
 
     def select_by(symbol, string)
-      puts @a
       @a.select{ |m| m[symbol] =~ Regexp.new(string, 'i') }
     end
 

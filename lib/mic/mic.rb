@@ -11,6 +11,7 @@ class Mic
       a = Mic::Search.new
       a = a.select_by(:mic, options[:mic]) if options[:mic]
       a = a.select_by(:market_name, options[:market_name]) if options[:market_name]
+      a = a.select_by(:country_code, options[:country_code]) if options[:country_code]
       a
     end
 
