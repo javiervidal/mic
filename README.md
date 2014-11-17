@@ -43,8 +43,8 @@ Markets can be found by mic, market_name and country_code:
 
 By default, only operating markets are returned, but it is also possible to include market segments:
 
-    Mic.where(mic: 'XNAS', include: :segments)
-    Mic.where(country_code: 'PT', include: :segments)
+    Mic.where(mic: 'XNAS', include_segments: true)
+    Mic.where(country_code: 'PT', include_segments: true)
 
 ## Contributing
 
