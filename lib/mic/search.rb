@@ -19,7 +19,8 @@ class Mic
       end
     end
 
-    def select_by(symbol, string)
+    def select_by(symbol, string, include_segments)
+      @a = @a.select{ |m| m[:market_type] == 'O' } unless include_segments
       @a.select{ |m| m[symbol] =~ Regexp.new(string, 'i') }
     end
 
