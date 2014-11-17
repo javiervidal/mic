@@ -17,11 +17,11 @@ class Mic
         h[:website] = row[8]
         @a << h
       end
-      @a
     end
 
-    def select_by_mic(mic)
-      @a.select{ |m| m[:mic] =~ Regexp.new(mic) }
+    def select_by(symbol, string)
+      puts @a
+      @a.select{ |m| m[symbol] =~ Regexp.new(string, 'i') }
     end
 
   end

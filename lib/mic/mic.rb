@@ -9,7 +9,9 @@ class Mic
     def where(options = {})
       include_segments = options[:include_segments] || false
       a = Mic::Search.new
-      a = a.select_by_mic(options[:mic]) if options[:mic]
+      a = a.select_by(:mic, options[:mic]) if options[:mic]
+      a = a.select_by(:market_name, options[:market_name]) if options[:market_name]
+      a
     end
 
   end
