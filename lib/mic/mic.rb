@@ -8,7 +8,6 @@ class Mic
 
     def where(options = {})
       include_segments = options[:include_segments] || false
-      puts include_segments
       a = Mic::Search.new
       a = a.select_by(:mic, options[:mic], include_segments) if options[:mic]
       a = a.select_by(:operating_mic, options[:operating_mic], include_segments) if options[:operating_mic]
