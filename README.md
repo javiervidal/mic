@@ -95,6 +95,11 @@ By default, only operating markets are returned, but it is also possible to incl
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+## Code Status
+
+[![Build Status](https://travis-ci.org/javiervidal/mic.svg?branch=master)](https://travis-ci.org/javiervidal/mic)
+[![Code Climate](https://codeclimate.com/github/javiervidal/mic/badges/gpa.svg)](https://codeclimate.com/github/javiervidal/mic)
+
 ## Copyright
 
 Copyright (c) 2014 – ∞ Javier Vidal
