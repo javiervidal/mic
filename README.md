@@ -109,7 +109,7 @@ By default, only operating markets are returned, but it is also possible to incl
 
 ## Code Status
 
-[![Gem Version](https://badge.fury.io/rb/mic.svg)](http://badge.fury.io/rb/mic)
+[![Gem Version](http://img.shields.io/badge/gem-v1.0.1-blue.svg)](https://rubygems.org/gems/mic)
 [![Build Status](https://travis-ci.org/javiervidal/mic.svg?branch=master)](https://travis-ci.org/javiervidal/mic)
 [![Coverage Status](https://coveralls.io/repos/javiervidal/mic/badge.png?branch=master)](https://coveralls.io/r/javiervidal/mic?branch=master)
 [![Code Climate](https://codeclimate.com/github/javiervidal/mic/badges/gpa.svg)](https://codeclimate.com/github/javiervidal/mic)
