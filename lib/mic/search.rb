@@ -4,7 +4,7 @@ class Mic
 
     def initialize
       @a = []
-      CSV.foreach(Mic::FILE) do |row|
+      CSV.foreach(file) do |row|
         h = {}
         h[:mic] = row[2]
         h[:acronym] = row[6]
@@ -22,6 +22,10 @@ class Mic
     def select_by(symbol, string, include_segments)
       @a = @a.select{ |m| m[:market_type] == 'O' } unless include_segments
       @a.select{ |m| m[symbol] =~ Regexp.new(string, 'i') }
+    end
+
+    def file
+      File.expand_path('../../files/ISO10383.csv', File.dirname(__FILE__))
     end
 
   end

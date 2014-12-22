@@ -2,8 +2,6 @@ class Mic
 
   require 'csv'
 
-  FILE = 'files/ISO10383.csv'
-
   class << self
 
     def where(options = {})
